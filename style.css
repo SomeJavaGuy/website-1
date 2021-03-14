@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Futura;
+    src: url(Futura.ttc);
+}
+
+body {
+    background-color: #c6e9afff;
+    color: #ffffffff;
+    font-family: Futura;
+}
+
+.logo {
+    margin-top: 54vw;
+    text-align: center;
+}
+
+#cacao {
+    max-width: 72%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#about {
+    margin-top: 45vw;
+    padding: 9vw;
+}
+
+footer {
+    margin-top: 9vw;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .logo {
+        margin-top: 6vw;
+    }
+
+    #about {
+        margin-top: 0vw;
+        font-size: 2.1vw;
+    }
+
+    footer {
+        margin-top: 0vw;
+    }
+}
